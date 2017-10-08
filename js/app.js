@@ -28,21 +28,23 @@ $(function() {
     // klikalna galeria
 
     var allPics = $('.selection .pictures .picHolder');
-    var winPic = $('#testClick');
+    var winPic = $('.newWinClicked');
 
-    console.log(winPic);
+
 
     allPics.each(function(i) {
-        console.log(allPics[i]);
+
         $(allPics[i]).click(function() {
-            winPic.addClass('showMe');
+            $(winPic[i]).addClass('showMe');
         });
     });
 
-    var eX = $('#closeIt');
+    var eX = $('.closeIt');
 
-    eX.click(function() {
-        winPic.removeClass('showMe');
+    eX.each(function(i) {
+        $(eX[i]).click(function() {
+            $(winPic[i]).removeClass('showMe');
+        });
     });
 
 });
