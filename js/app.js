@@ -25,12 +25,10 @@ $(function() {
 
 
 
-    // klikalna galeria
+    // -------- klikalna galeria
 
     var allPics = $('.selection .pictures .picHolder');
     var winPic = $('.newWinClicked');
-
-
 
     allPics.each(function(i) {
 
@@ -46,6 +44,69 @@ $(function() {
             $(winPic[i]).removeClass('showMe');
         });
     });
+
+
+    // next i prev 
+
+    var allBtnsPrev = $('.btnPrev');
+
+    allBtnsPrev.each(function(i) {
+
+        $(allBtnsPrev[i]).click(function() {
+
+            if (winPic[i - 1] !== undefined) {
+
+                $(winPic[i]).removeClass('showMe');
+                $(winPic[i - 1]).addClass('showMe');
+            }
+        });
+    });
+
+
+    var allBtnsNext = $('.btnNext');
+
+    allBtnsNext.each(function(i) {
+
+        $(allBtnsNext[i]).click(function() {
+
+            if (winPic[i + 1] !== undefined) {
+
+                $(winPic[i]).removeClass('showMe');
+                $(winPic[i + 1]).addClass('showMe');
+            }
+        });
+    });
+
+    //w galerii przelaczanie strzalkami pomiedzy zdjeciami
+
+    var allClickedGalleries = $('.jsPick');
+
+    allClickedGalleries.each(function(i) {
+
+        var la = $(allClickedGalleries[i]).find('.la');
+        var ra = $(allClickedGalleries[i]).find('.ra');
+
+        var allImgs = $(allClickedGalleries[i]).find('img');
+
+        ra.click(function() {
+
+            allImgs.each(function(i) {
+                console.log(allImgs[i]);
+
+                if ($(allImgs[i]).hasClass('active') == true || $(allImgs[i + 1]) !== undefined) {
+                    $(allImgs[i + 1]).addClass('active');
+                    $(allImgs[i]).removeClass('active');
+
+                }
+            });
+
+
+        })
+
+    });
+
+
+
 
 
     //karuzela 
