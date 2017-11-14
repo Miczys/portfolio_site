@@ -127,9 +127,7 @@
     width: 1.7rem;
 }
 
-.slick-prev img {
-    transform: rotate(-180deg);
-}
+.slick-prev img {}
 
 .slick-prev {
     order: 1;

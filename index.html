@@ -10,13 +10,34 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&amp;subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 
 <body>
     <section class="hder">
+
+        <div class="menMob">
+            <ul>
+                <li onclick="location.href='index.html';" class="active">HOME
+                </li>
+
+                <li onclick="location.href='portfolio.html';">PORTFOLIO
+                </li>
+
+                <li onclick="location.href='assetstore.html';">ASSET STORE
+                </li>
+
+                <li onclick="location.href='contact.html';">CONTACT
+                </li>
+            </ul>
+
+            <button class="clsMob"><img src="./images/icons/arrow.png"></button>
+        </div>
+
         <div class="container">
             <div class="row">
+
                 <div class="col-2 logo">
                     <div onclick="location.href='index.html';">
                         <div class="logoPartOne">DIGITUP</div>
@@ -29,7 +50,9 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-4"></div>
+
                 <div class="col-6 menu">
                     <ul>
                         <li onclick="location.href='index.html';" class="active">HOME
@@ -41,11 +64,19 @@
                         <li onclick="location.href='assetstore.html';">ASSET STORE
                             <div class="square"></div>
                         </li>
-                        <li onclick="location.href='contact.html';">KONTAKT
+                        <li onclick="location.href='contact.html';">CONTACT
                             <div class="square"></div>
                         </li>
                     </ul>
                 </div>
+
+                <button class="burger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </button>
+
+
             </div>
         </div>
     </section>
@@ -67,7 +98,7 @@
                         </div>
 
                         <div class="col-6 content">
-                            <img class="pic" src="./images/sliderContent/slide1.png">
+                            <img class="pic" src="./images/sliderContent/alex-knight-game models.jpg">
                         </div>
                     </div>
 
@@ -83,7 +114,7 @@
                         </div>
 
                         <div class="col-6 content">
-                            <img class="pic" src="./images/sliderContent/slide2.png">
+                            <img class="pic" src="./images/sliderContent/dominik-scythe-motto.jpg">
                         </div>
                     </div>
 
@@ -99,14 +130,14 @@
                         </div>
 
                         <div class="col-6 content">
-                            <img class="pic" src="./images/sliderContent/slide3.png">
+                            <img class="pic" src="./images/sliderContent/michal-parzuchowski-logic.jpg">
                         </div>
                     </div>
 
 
                     <div class="autoSlide">
                         <div class="col-6 content slide">
-                            <div class="slideTitle">MAGINATION
+                            <div class="slideTitle">IMAGINATION
                                 <div class="sBorder"></div>
                             </div>
 
@@ -115,7 +146,7 @@
                         </div>
 
                         <div class="col-6 content">
-                            <img class="pic" src="./images/sliderContent/slide4.png">
+                            <img class="pic" src="./images/sliderContent/james-pond-imagination.jpg">
                         </div>
                     </div>
                 </div>
@@ -126,6 +157,76 @@
             </div>
         </div>
     </section>
+
+    <section class="mobileSlider">
+
+        <div class="sqHld">
+            <div class="sliderHolder">
+
+
+                <div class="slide active">
+                    <h1 class="title2">IMAGINATION</h1>
+                    <hr>
+                    <p>
+                        We can faithfully reproduce existing places (such as factories, flats, cities) but also create a completely new, fabulous world with our inventions and creatures. Every detail counts for us!
+                    </p>
+                </div>
+
+                <div class="slide">
+                    <h1 class="title2">LOGIC</h1>
+                    <hr>
+                    <p>We program advanced physics and artificial intelligence that our characters use to give realism to our project. It's all about the light! In our projects we use PBR technology that reflects natural light and simulates photorealism.</p>
+                </div>
+
+                <div class="slide">
+                    <h1 class="title2">OUR MOTTO</h1>
+                    <hr>
+                    <p>“Logic will take you from point A to B. Imagination will take you everywhere.”</p>
+                    <p class="lastP">Albert Einstein</p>
+                </div>
+
+                <div class="slide">
+                    <h1 class="title2">GAME MODELS</h1>
+                    <hr>
+                    <p>We create high quality models for games. Our works are used in mobile, VR, AR and www. Each model has LOD, map texture (such as labedo, normal map, specular map, occlusion map). Each model is made to the appropriate scale.</p>
+
+                </div>
+
+
+            </div>
+
+            <div class="navSlide">
+
+                <div class="ic active">
+                    <div></div>
+                </div>
+
+                <div class="ic">
+                    <div></div>
+                </div>
+
+                <div class="ic">
+                    <div></div>
+                </div>
+
+                <div class="ic">
+                    <div></div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="dropDown">
+            <div class="sqr">
+                <a class="midsqr" href="#"></a>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
 
     <section class="aboutUs">
         <div class="container">
@@ -152,14 +253,14 @@
                     <div class="circle">
                         <img src="./images/icons/glasses.png">
                     </div>
-                    <h6>VIRTUAL REALITY</h6>
+                    <h6>VIRTUAL<br>REALITY</h6>
                 </div>
 
                 <div class="feature">
                     <div class="circle">
                         <img src="./images/icons/phone1.png">
                     </div>
-                    <h6>AUGUMENTED REALITY</h6>
+                    <h6>AUGUMENTED<br>REALITY</h6>
                 </div>
 
                 <div class="feature">
@@ -205,7 +306,7 @@
                     <p>We are always looking for new challenges and interesting partners. Also, we love to say hello.</p>
                 </div>
                 <div class="col-3 button">
-                    <button>CONTACT US</button>
+                    <button onclick="location.href='contact.html';">CONTACT US</button>
                 </div>
             </div>
         </div>
@@ -254,7 +355,7 @@
                         <p>Sign up for our mailing list to get latest updates and offers.</p>
                         <form class="col-12 input">
                             <input type="text" name="email" placeholder="Enter your email">
-                            <button><img src="./images/icons/arrow.png"></button>
+                            <button><img class="arrcor" src="./images/icons/arrow.png"></button>
                         </form>
                     </div>
                 </div>
@@ -263,6 +364,10 @@
             <div class="row">
                 <div class="col-12 badges">
                     <div class="badge" onclick="window.open('https://unsplash.com/@edhoradic?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge', '_blank');"><img src="./images/icons/camera.png">Edho Pratama</div>
+                    <div class="badge" onclick="window.open('https://unsplash.com/@shotbyjames?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge', '_blank');"><img src="./images/icons/camera.png">James Pond</div>
+                    <div class="badge" onclick="window.open('https://unsplash.com/@agkdesign?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge', '_blank');"><img src="./images/icons/camera.png">Alex Knight</div>
+                    <div class="badge" onclick="window.open('https://unsplash.com/@drscythe?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge', '_blank');"><img src="./images/icons/camera.png">Dominik Scythe</div>
+                    <div class="badge" onclick="window.open('https://unsplash.com/@mparzuchowski?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge', '_blank');"><img src="./images/icons/camera.png">Michael Parzucho</div>
                 </div>
             </div>
     </section>
@@ -277,7 +382,7 @@
                 <div class="col-6"></div>
 
                 <div class="col-1 bttn">
-                    <button><img src="./images/icons/arrow.png"></button>
+                    <button class="scrollTopBtn"><img src="./images/icons/arrow.png"></button>
                 </div>
             </div>
         </div>
@@ -286,11 +391,16 @@
 
 
 
+
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-    <script src="./js/app.js" type="text/javascript"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="./js/app.js" type="text/javascript"></script>
+    <script src="./js/burger.js" type="text/javascript"></script>
+    <script src="./js/mobileGall.js" type="text/javascript"></script>
 </body>
 
 </html>

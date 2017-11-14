@@ -88,20 +88,37 @@ $(function() {
 
         var allImgs = $(allClickedGalleries[i]).find('img');
 
+        var cntr = 0;
+
         ra.click(function() {
+            cntr++;
 
-            allImgs.each(function(i) {
-                console.log(allImgs[i]);
-
-                if ($(allImgs[i]).hasClass('active') == true || $(allImgs[i + 1]) !== undefined) {
-                    $(allImgs[i + 1]).addClass('active');
+            if (cntr >= allImgs.length) {
+                cntr = allImgs.length;
+            } else {
+                allImgs.each(function(i) {
                     $(allImgs[i]).removeClass('active');
+                });
+            }
 
-                }
-            });
+            $(allImgs[cntr]).addClass('active');
+        });
+
+        la.click(function() {
+            cntr--;
+
+            if (cntr < 0) {
+                cntr = 0;
+            } else {
+                allImgs.each(function(i) {
+                    $(allImgs[i]).removeClass('active');
+                });
+            }
+
+            $(allImgs[cntr]).addClass('active');
+        });
 
 
-        })
 
     });
 
@@ -117,6 +134,20 @@ $(function() {
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 5000,
+    });
+
+
+
+    //przenies na gore button
+
+    var sctpbtn = $('.scrollTopBtn');
+
+    $(sctpbtn).click(function() {
+
+        $('html, body').animate({
+            scrollTop: $('.hder').offset().top
+        }, 750);
+
     });
 
 

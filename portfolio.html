@@ -9,14 +9,35 @@
     <link rel="stylesheet" href="./css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&amp;subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
     <section class="hder">
+
+        <div class="menMob">
+            <ul>
+                <li onclick="location.href='index.html';">HOME
+                </li>
+
+                <li onclick="location.href='portfolio.html';" class="active">PORTFOLIO
+                </li>
+
+                <li onclick="location.href='assetstore.html';">ASSET STORE
+                </li>
+
+                <li onclick="location.href='contact.html';">CONTACT
+                </li>
+            </ul>
+
+            <button class="clsMob"><img src="./images/icons/arrow.png"></button>
+        </div>
+
         <div class="container">
             <div class="row">
+
                 <div class="col-2 logo">
-                    <div onclick="location.href='home.html';">
+                    <div onclick="location.href='index.html';">
                         <div class="logoPartOne">DIGITUP</div>
                         <div class="logoPartTwo">
                             <div>DE</div>
@@ -27,7 +48,9 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-4"></div>
+
                 <div class="col-6 menu">
                     <ul>
                         <li onclick="location.href='index.html';">HOME
@@ -39,11 +62,19 @@
                         <li onclick="location.href='assetstore.html';">ASSET STORE
                             <div class="square"></div>
                         </li>
-                        <li onclick="location.href='contact.html';">KONTAKT
+                        <li onclick="location.href='contact.html';">CONTACT
                             <div class="square"></div>
                         </li>
                     </ul>
                 </div>
+
+                <button class="burger">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </button>
+
+
             </div>
         </div>
     </section>
@@ -60,7 +91,7 @@
 
     <section class="selection">
         <div class="container">
-            <div class="row">
+            <div class="row navGal">
                 <div class="col-12 menu">
                     <ul>
                         <li class="active">ALL
@@ -211,14 +242,18 @@
                                                 <div class="page ra">
                                                     <div class="arrow"></div>
                                                 </div>
-                                                <img src="./images/portfolio_materials/latarka/latarka.jpg">
+                                                <img class="active" src="./images/portfolio_materials/latarka/latarka.jpg">
+                                                <img src="./images/portfolio_materials/latarka/latarka_2.jpg" alt="photo">
+                                                <img src="./images/portfolio_materials/latarka/latarka_1.jpg" alt="photo">
+                                                <img src="./images/portfolio_materials/latarka/flashlight.jpg" alt="photo">
+                                                <img src="./images/portfolio_materials/latarka/uv kopia.jpg" alt="photo">
                                             </div>
                                         </div>
                                         <div class="row holder">
                                             <img src="./images/portfolio_materials/latarka/latarka_2.jpg" alt="photo">
                                             <img src="./images/portfolio_materials/latarka/latarka_1.jpg" alt="photo">
                                             <img src="./images/portfolio_materials/latarka/flashlight.jpg" alt="photo">
-                                            <img src="./images/portfolio_materials/latarka/uv kopia.png" alt="photo">
+                                            <img src="./images/portfolio_materials/latarka/uv kopia.jpg" alt="photo">
                                         </div>
                                         <div class="row nav">
                                             <button class="btnPrev"><img src="./images/icons/arrowBlack.png" alt="arrow">PREV</button>
@@ -291,7 +326,11 @@
                                                 <div class="page ra">
                                                     <div class="arrow"></div>
                                                 </div>
-                                                <img src="./images/portfolio_materials/lornetka/lornetka.jpg">
+                                                <img class="active" src="./images/portfolio_materials/lornetka/lornetka.jpg">
+                                                <img src="./images/portfolio_materials/lornetka/lornetka_2.jpg" alt="photo">
+                                                <img src="./images/portfolio_materials/lornetka/lornetka_3.jpg" alt="photo">
+                                                <img src="./images/portfolio_materials/lornetka/lornetka.jpg" alt="photo">
+                                                <img src="./images/portfolio_materials/lornetka/uv kopia.png" alt="photo">
                                             </div>
                                         </div>
                                         <div class="row holder">
@@ -371,14 +410,18 @@
                                                 <div class="page ra">
                                                     <div class="arrow"></div>
                                                 </div>
-                                                <img src="./images/portfolio_materials/ammo_box/ammo_box.jpg">
+                                                <img class="active" src="./images/portfolio_materials/ammo_box/ammo_box.jpg">
+                                                <img src="./images/portfolio_materials/ammo_box/ammo_box_1.jpg" alt="photo">
+                                                <img src="./images/portfolio_materials/ammo_box/ammo_box_2.jpg" alt="photo">
+                                                <img src="./images/portfolio_materials/ammo_box/ammo_box.jpg" alt="photo">
+                                                <img src="./images/portfolio_materials/ammo_box/uv.jpg" alt="photo">
                                             </div>
                                         </div>
                                         <div class="row holder">
                                             <img src="./images/portfolio_materials/ammo_box/ammo_box_1.jpg" alt="photo">
                                             <img src="./images/portfolio_materials/ammo_box/ammo_box_2.jpg" alt="photo">
                                             <img src="./images/portfolio_materials/ammo_box/ammo_box.jpg" alt="photo">
-                                            <img src="./images/portfolio_materials/ammo_box/uv.png" alt="photo">
+                                            <img src="./images/portfolio_materials/ammo_box/uv.jpg" alt="photo">
                                         </div>
                                         <div class="row nav">
                                             <button class="btnPrev"><img src="./images/icons/arrowBlack.png" alt="arrow">PREV</button>
@@ -451,7 +494,11 @@
                                                 <div class="page ra">
                                                     <div class="arrow"></div>
                                                 </div>
-                                                <img src="./images/portfolio_materials/skrzynia/skrzynka.jpg">
+                                                <img class="active" src="./images/portfolio_materials/skrzynia/skrzynka.jpg">
+                                                <img src="./images/portfolio_materials/skrzynia/skrzynka_1.jpg" alt="photo">
+                                                <img src="./images/portfolio_materials/skrzynia/skrzynka_2.jpg" alt="photo">
+                                                <img src="./images/portfolio_materials/skrzynia/skrzynka.jpg" alt="photo">
+                                                <img src="./images/portfolio_materials/skrzynia/uv.png" alt="photo">
                                             </div>
                                         </div>
                                         <div class="row holder">
@@ -530,14 +577,18 @@
                                                 <div class="page ra">
                                                     <div class="arrow"></div>
                                                 </div>
-                                                <img src="./images/portfolio_materials/kubek/128x128.png">
+                                                <img class="active" src="./images/portfolio_materials/kubek/128x128.png">
+                                                <img src="./images/portfolio_materials/kubek/2.jpg" alt="photo">
+                                                <img src="./images/portfolio_materials/kubek/3.jpg" alt="photo">
+                                                <img src="./images/portfolio_materials/kubek/4.jpg" alt="photo">
+                                                <img src="./images/portfolio_materials/kubek/edge kopia.jpg" alt="photo">
                                             </div>
                                         </div>
                                         <div class="row holder">
                                             <img src="./images/portfolio_materials/kubek/2.jpg" alt="photo">
                                             <img src="./images/portfolio_materials/kubek/3.jpg" alt="photo">
                                             <img src="./images/portfolio_materials/kubek/4.jpg" alt="photo">
-                                            <img src="./images/portfolio_materials/kubek/edge kopia.png" alt="photo">
+                                            <img src="./images/portfolio_materials/kubek/edge kopia.jpg" alt="photo">
                                         </div>
                                         <div class="row nav">
                                             <button class="btnPrev"><img src="./images/icons/arrowBlack.png" alt="arrow">PREV</button>
@@ -610,7 +661,11 @@
                                                 <div class="page ra">
                                                     <div class="arrow"></div>
                                                 </div>
-                                                <img src="./images/portfolio_materials/zozol/zozol.jpg">
+                                                <img class="active" src="./images/portfolio_materials/zozol/zozol.jpg">
+                                                <img src="./images/portfolio_materials/zozol/zozol_2.jpg" alt="photo">
+                                                <img src="./images/portfolio_materials/zozol/zozol_3.jpg" alt="photo">
+                                                <img src="./images/portfolio_materials/zozol/zozol_4.jpg" alt="photo">
+                                                <img src="./images/portfolio_materials/zozol/zozole_1.jpg" alt="photo">
                                             </div>
                                         </div>
                                         <div class="row holder">
@@ -690,14 +745,18 @@
                                                 <div class="page ra">
                                                     <div class="arrow"></div>
                                                 </div>
-                                                <img src="./images/portfolio_materials/laweczka/laweczka.jpg">
+                                                <img class="active" src="./images/portfolio_materials/laweczka/laweczka.jpg">
+                                                <!-- <img src="./images/portfolio_materials/laweczka/laweczka.jpg" alt="photo">
+                                                <img src="./images/portfolio_materials/laweczka/laweczka.jpg" alt="photo">
+                                                <img src="./images/portfolio_materials/laweczka/laweczka.jpg" alt="photo">
+                                                <img src="./images/portfolio_materials/laweczka/laweczka.jpg" alt="photo"> -->
                                             </div>
                                         </div>
                                         <div class="row holder">
                                             <img src="./images/portfolio_materials/laweczka/laweczka.jpg" alt="photo">
+                                            <!-- <img src="./images/portfolio_materials/laweczka/laweczka.jpg" alt="photo">
                                             <img src="./images/portfolio_materials/laweczka/laweczka.jpg" alt="photo">
-                                            <img src="./images/portfolio_materials/laweczka/laweczka.jpg" alt="photo">
-                                            <img src="./images/portfolio_materials/laweczka/laweczka.jpg" alt="photo">
+                                            <img src="./images/portfolio_materials/laweczka/laweczka.jpg" alt="photo"> -->
                                         </div>
                                         <div class="row nav">
                                             <button class="btnPrev"><img src="./images/icons/arrowBlack.png" alt="arrow">PREV</button>
@@ -724,7 +783,7 @@
                                                     </div>
                                                     <div>
                                                         <div class="icon_piechart"></div>
-                                                        <div class="text">24 650 tris</div>
+                                                        <div class="text">474 tris</div>
                                                     </div>
                                                     <div>
                                                         <div class="icon_grid-3x3"></div>
@@ -754,7 +813,7 @@
             </div>
 
 
-            <div class="row">
+            <div class="row desktop">
                 <div class="col-12 pictures">
 
                     <div class="picHolder">
@@ -794,8 +853,785 @@
             </div>
 
 
+            <div class="row mobile">
+                <div class="col-12 pictures disappic">
 
-            <div class="row">
+                    <div class="picHolder">
+                        <img class="mainPic" src="./images/portfolio_materials/laptop/laptop.jpg">
+                        <img class="scope" src="./images/icons/scope.png">
+                    </div>
+                    <div class="picHolder">
+                        <img class="mainPic" src="./images/portfolio_materials/latarka/latarka.jpg">
+                        <img class="scope" src="./images/icons/scope.png">
+                    </div>
+                    <div class="picHolder">
+                        <img class="mainPic" src="./images/portfolio_materials/lornetka/lornetka.jpg">
+                        <img class="scope" src="./images/icons/scope.png">
+                    </div>
+                    <div class="picHolder">
+                        <img class="mainPic" src="./images/portfolio_materials/ammo_box/ammo_box.jpg">
+                        <img class="scope" src="./images/icons/scope.png">
+                    </div>
+                    <div class="picHolder">
+                        <img class="mainPic" src="./images/portfolio_materials/skrzynia/skrzynka.jpg">
+                        <img class="scope" src="./images/icons/scope.png">
+                    </div>
+                    <div class="picHolder">
+                        <img class="mainPic" src="./images/portfolio_materials/kubek/128x128.png">
+                        <img class="scope" src="./images/icons/scope.png">
+                    </div>
+                    <div class="picHolder">
+                        <img class="mainPic" src="./images/portfolio_materials/zozol/zozol_2.jpg">
+                        <img class="scope" src="./images/icons/scope.png">
+                    </div>
+                    <div class="picHolder">
+                        <img class="mainPic" src="./images/portfolio_materials/laweczka/laweczka.jpg">
+                        <img class="scope" src="./images/icons/scope.png">
+                    </div>
+
+                </div>
+
+                <div class="mobHolder">
+
+                    <div class="mobClicked">
+                        <h1>ARMORED MILITARY LAPTOP</h1>
+
+                        <button class="clBtn">X</button>
+
+                        <div class="galHold">
+                            <div class="sldie active">
+                                <img src="./images/portfolio_materials/laptop/laptop.jpg" alt="">
+                            </div>
+
+                            <div class="sldie">
+                                <img src="./images/portfolio_materials/laptop/laptop_1.jpg" alt="">
+                            </div>
+
+
+                            <div class="sldie">
+                                <img src="./images/portfolio_materials/laptop/laptop_2.jpg" alt="">
+                            </div>
+
+
+                            <div class="sldie">
+                                <img src="./images/portfolio_materials/laptop/laptop_blue.jpg" alt="">
+                            </div>
+
+
+                            <div class="sldie">
+                                <img src="./images/portfolio_materials/laptop/uv.png" alt="">
+                            </div>
+
+                            <div class="belt">
+                                <div class="bigsq active">
+                                    <div class="smllsq"></div>
+                                </div>
+                                <div class="bigsq">
+                                    <div class="smllsq"></div>
+                                </div>
+
+                                <div class="bigsq">
+                                    <div class="smllsq"></div>
+                                </div>
+
+                                <div class="bigsq">
+                                    <div class="smllsq"></div>
+                                </div>
+
+                                <div class="bigsq">
+                                    <div class="smllsq"></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="desc">
+                            <div class="ctch">
+                                <div class="icon_globe-2 ick"></div>
+                                <div class="text">LOD</div>
+                            </div>
+                            <div class="ctch">
+                                <div class="icon_map_alt ick"></div>
+                                <div class="text">Texture maps</div>
+                            </div>
+                            <div class="ctch">
+                                <div class="icon_piechart ick"></div>
+                                <div class="text">Low poly 484 tris</div>
+                            </div>
+                            <div class="ctch">
+                                <div class="icon_grid-3x3 ick"></div>
+                                <div class="text">UV</div>
+                            </div>
+                        </div>
+
+                        <div class="desc2">
+                            Flat bench model-one mesh, one material, 474 tris.<br><br>All textures in 2K resolution: <br>Albedo map, Normal map, Ambient occlusion map, Specular map. <br><br>Good for PC, VR and mobile.
+                        </div>
+
+                        <div class="share">
+                            SHARE:
+                            <a class="social_twitter"></a>
+                            <a class="social_facebook"></a>
+                            <a class="social_pinterest"></a>
+                            <a class="social_instagram"></a>
+                            <a class="social_dribbble"></a>
+                        </div>
+
+                        <div class="butthold">
+                            <button>SEE ON SKETCHFAB</button>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="mobClicked">
+                        <h1>REALISTIC LOWPOLY FLASHLIGHT</h1>
+                        <button class="clBtn">X</button>
+                        <div class="galHold">
+                            <div class="sldie active">
+                                <img src="./images/portfolio_materials/latarka/latarka.jpg" alt="">
+                            </div>
+
+                            <div class="sldie">
+                                <img src="./images/portfolio_materials/latarka/latarka_2.jpg" alt="">
+                            </div>
+
+
+                            <div class="sldie">
+                                <img src="./images/portfolio_materials/latarka/latarka_1.jpg" alt="">
+                            </div>
+
+
+                            <div class="sldie">
+                                <img src="./images/portfolio_materials/latarka/flashlight.jpg" alt="">
+                            </div>
+
+
+                            <div class="sldie">
+                                <img src="./images/portfolio_materials/latarka/uv kopia.jpg" alt="">
+                            </div>
+
+
+
+                            <div class="belt">
+                                <div class="bigsq active">
+                                    <div class="smllsq"></div>
+                                </div>
+                                <div class="bigsq">
+                                    <div class="smllsq"></div>
+                                </div>
+
+                                <div class="bigsq">
+                                    <div class="smllsq"></div>
+                                </div>
+
+                                <div class="bigsq">
+                                    <div class="smllsq"></div>
+                                </div>
+
+                                <div class="bigsq">
+                                    <div class="smllsq"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="desc">
+                            <div class="ctch">
+                                <div class="icon_globe-2 ick"></div>
+                                <div class="text">LOD</div>
+                            </div>
+                            <div class="ctch">
+                                <div class="icon_map_alt ick"></div>
+                                <div class="text">Texture maps</div>
+                            </div>
+                            <div class="ctch">
+                                <div class="icon_piechart ick"></div>
+                                <div class="text">Low poly 80 tris</div>
+                            </div>
+                            <div class="ctch">
+                                <div class="icon_grid-3x3 ick"></div>
+                                <div class="text">UV</div>
+                            </div>
+                        </div>
+
+                        <div class="desc2">
+                            Realistic Lowpoly Flashlight-one mesh, one material, LOD0 836 tris, LOD1 160 tris, LOD2 80 tris.<br><br>All textures in 2K reolution: Albedo map, Normal map, Ambient occlusion map, Specular map, Emission map, Height map.<br><br>3x
+                            Spotlight cookie texture (1024x1024). <br><br>Good for PC, VR and mobile.
+                        </div>
+
+                        <div class="share">
+                            SHARE:
+                            <a class="social_twitter"></a>
+                            <a class="social_facebook"></a>
+                            <a class="social_pinterest"></a>
+                            <a class="social_instagram"></a>
+                            <a class="social_dribbble"></a>
+                        </div>
+
+                        <div class="butthold">
+                            <button>SEE ON SKETCHFAB</button>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="mobClicked">
+                        <h1>TACTICAL BINOCULARS</h1>
+                        <button class="clBtn">X</button>
+                        <div class="galHold">
+                            <div class="sldie active">
+                                <img src="./images/portfolio_materials/lornetka/lornetka.jpg" alt="">
+                            </div>
+
+                            <div class="sldie">
+                                <img src="./images/portfolio_materials/lornetka/lornetka_2.jpg" alt="">
+                            </div>
+
+
+                            <div class="sldie">
+                                <img src="./images/portfolio_materials/lornetka/lornetka_3.jpg" alt="">
+                            </div>
+
+
+                            <div class="sldie">
+                                <img src="./images/portfolio_materials/lornetka/lornetka.jpg" alt="">
+                            </div>
+
+
+                            <div class="sldie">
+                                <img src="./images/portfolio_materials/lornetka/uv kopia.png" alt="">
+                            </div>
+
+
+
+                            <div class="belt">
+                                <div class="bigsq active">
+                                    <div class="smllsq"></div>
+                                </div>
+                                <div class="bigsq">
+                                    <div class="smllsq"></div>
+                                </div>
+
+                                <div class="bigsq">
+                                    <div class="smllsq"></div>
+                                </div>
+
+                                <div class="bigsq">
+                                    <div class="smllsq"></div>
+                                </div>
+
+                                <div class="bigsq">
+                                    <div class="smllsq"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="desc">
+                            <div class="ctch">
+                                <div class="icon_globe-2 ick"></div>
+                                <div class="text">LOD</div>
+                            </div>
+                            <div class="ctch">
+                                <div class="icon_map_alt ick"></div>
+                                <div class="text">Texture maps</div>
+                            </div>
+                            <div class="ctch">
+                                <div class="icon_piechart ick"></div>
+                                <div class="text">Low poly 334 tris</div>
+                            </div>
+                            <div class="ctch">
+                                <div class="icon_grid-3x3 ick"></div>
+                                <div class="text">UV</div>
+                            </div>
+                        </div>
+
+                        <div class="desc2">
+                            Low Poly Tactical Binoculars Model -one mesh, one material, LOD0 1806 tris, LOD1 334 tris.<br><br>All textures in 2K resolution: Albedo map, Normal map, Ambient occlusion map, Specular map. Specular map with dirt for screen
+                            material,
+                            <br><br>Good for PC, VR and mobile.
+                        </div>
+
+                        <div class="share">
+                            SHARE:
+                            <a class="social_twitter"></a>
+                            <a class="social_facebook"></a>
+                            <a class="social_pinterest"></a>
+                            <a class="social_instagram"></a>
+                            <a class="social_dribbble"></a>
+                        </div>
+
+                        <div class="butthold">
+                            <button>SEE ON SKETCHFAB</button>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="mobClicked">
+                        <h1>AMMO BOX</h1>
+                        <button class="clBtn">X</button>
+                        <div class="galHold">
+                            <div class="sldie active">
+                                <img src="./images/portfolio_materials/ammo_box/ammo_box.jpg" alt="">
+                            </div>
+
+                            <div class="sldie">
+                                <img src="./images/portfolio_materials/ammo_box/ammo_box_1.jpg" alt="">
+
+                            </div>
+
+
+                            <div class="sldie">
+                                <img src="./images/portfolio_materials/ammo_box/ammo_box_2.jpg" alt="">
+
+                            </div>
+
+
+                            <div class="sldie">
+                                <img src="./images/portfolio_materials/ammo_box/ammo_box.jpg" alt="">
+
+                            </div>
+
+
+                            <div class="sldie">
+                                <img src="./images/portfolio_materials/ammo_box/uv.jpg" alt="">
+                            </div>
+
+
+
+                            <div class="belt">
+                                <div class="bigsq active">
+                                    <div class="smllsq"></div>
+                                </div>
+                                <div class="bigsq">
+                                    <div class="smllsq"></div>
+                                </div>
+
+                                <div class="bigsq">
+                                    <div class="smllsq"></div>
+                                </div>
+
+                                <div class="bigsq">
+                                    <div class="smllsq"></div>
+                                </div>
+
+                                <div class="bigsq">
+                                    <div class="smllsq"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="desc">
+                            <div class="ctch">
+                                <div class="icon_globe-2 ick"></div>
+                                <div class="text">LOD</div>
+                            </div>
+                            <div class="ctch">
+                                <div class="icon_map_alt ick"></div>
+                                <div class="text">Texture maps</div>
+                            </div>
+                            <div class="ctch">
+                                <div class="icon_piechart ick"></div>
+                                <div class="text">Low poly 44 tris</div>
+                            </div>
+                            <div class="ctch">
+                                <div class="icon_grid-3x3 ick"></div>
+                                <div class="text">UV</div>
+                            </div>
+                        </div>
+
+                        <div class="desc2">
+                            Ammo box model-one mesh, one material, 44 tris.<br><br>All textures in 2K resolution: <br><br>Albedo map, Normal map, Ambient occlusion map, Specular map, Height map, Roughness map. <br><br>Good for PC, VR and mobile.
+                        </div>
+
+                        <div class="share">
+                            SHARE:
+                            <a class="social_twitter"></a>
+                            <a class="social_facebook"></a>
+                            <a class="social_pinterest"></a>
+                            <a class="social_instagram"></a>
+                            <a class="social_dribbble"></a>
+                        </div>
+
+                        <div class="butthold">
+                            <button>SEE ON SKETCHFAB</button>
+                        </div>
+
+                    </div>
+
+
+                    <div class="mobClicked">
+                        <h1>WOODEN CHEST</h1>
+                        <button class="clBtn">X</button>
+                        <div class="galHold">
+                            <div class="sldie active">
+                                <img src="./images/portfolio_materials/skrzynia/skrzynka.jpg" alt="">
+                            </div>
+
+                            <div class="sldie">
+                                <img src="./images/portfolio_materials/skrzynia/skrzynka_1.jpg" alt="">
+
+                            </div>
+
+
+                            <div class="sldie">
+                                <img src="./images/portfolio_materials/skrzynia/skrzynka_2.jpg" alt="">
+                            </div>
+
+
+                            <div class="sldie">
+                                <img src="./images/portfolio_materials/skrzynia/skrzynka.jpg" alt="">
+                            </div>
+
+
+                            <div class="sldie">
+                                <img src="./images/portfolio_materials/skrzynia/uv.png" alt="">
+                            </div>
+
+
+
+                            <div class="belt">
+                                <div class="bigsq active">
+                                    <div class="smllsq"></div>
+                                </div>
+                                <div class="bigsq">
+                                    <div class="smllsq"></div>
+                                </div>
+
+                                <div class="bigsq">
+                                    <div class="smllsq"></div>
+                                </div>
+
+                                <div class="bigsq">
+                                    <div class="smllsq"></div>
+                                </div>
+
+                                <div class="bigsq">
+                                    <div class="smllsq"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="desc">
+                            <div class="ctch">
+                                <div class="icon_globe-2 ick"></div>
+                                <div class="text">LOD</div>
+                            </div>
+                            <div class="ctch">
+                                <div class="icon_map_alt ick"></div>
+                                <div class="text">Texture maps</div>
+                            </div>
+                            <div class="ctch">
+                                <div class="icon_piechart ick"></div>
+                                <div class="text">812 tris</div>
+                            </div>
+                            <div class="ctch">
+                                <div class="icon_grid-3x3 ick"></div>
+                                <div class="text">UV</div>
+                            </div>
+                        </div>
+
+                        <div class="desc2">
+                            Wooden chest model-one mesh, one material, 812 tris.<br><br>All textures in 2K resolution: <br><br> Albedo map, Normal map, Ambient occlusion map, Specular map. <br><br>Good for PC, VR and mobile.
+                        </div>
+
+                        <div class="share">
+                            SHARE:
+                            <a class="social_twitter"></a>
+                            <a class="social_facebook"></a>
+                            <a class="social_pinterest"></a>
+                            <a class="social_instagram"></a>
+                            <a class="social_dribbble"></a>
+                        </div>
+
+                        <div class="butthold">
+                            <button>SEE ON SKETCHFAB</button>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="mobClicked">
+                        <h1>METAL MUG</h1>
+                        <button class="clBtn">X</button>
+                        <div class="galHold">
+                            <div class="sldie active">
+                                <img src="./images/portfolio_materials/kubek/128x128.png" alt="">
+                            </div>
+
+                            <div class="sldie">
+                                <img src="./images/portfolio_materials/kubek/2.jpg" alt="">
+                            </div>
+
+
+                            <div class="sldie">
+                                <img src="./images/portfolio_materials/kubek/3.jpg" alt="">
+                            </div>
+
+
+                            <div class="sldie">
+                                <img src="./images/portfolio_materials/kubek/4.jpg" alt="">
+                            </div>
+
+
+                            <div class="sldie">
+                                <img src="./images/portfolio_materials/kubek/edge kopia.jpg" alt="">
+                            </div>
+
+
+                            <div class="belt">
+                                <div class="bigsq active">
+                                    <div class="smllsq"></div>
+                                </div>
+                                <div class="bigsq">
+                                    <div class="smllsq"></div>
+                                </div>
+
+                                <div class="bigsq">
+                                    <div class="smllsq"></div>
+                                </div>
+
+                                <div class="bigsq">
+                                    <div class="smllsq"></div>
+                                </div>
+
+                                <div class="bigsq">
+                                    <div class="smllsq"></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="desc">
+                            <div class="ctch">
+                                <div class="icon_globe-2 ick"></div>
+                                <div class="text">LOD</div>
+                            </div>
+                            <div class="ctch">
+                                <div class="icon_map_alt ick"></div>
+                                <div class="text">Texture maps</div>
+                            </div>
+                            <div class="ctch">
+                                <div class="icon_piechart ick"></div>
+                                <div class="text">64 tris</div>
+                            </div>
+                            <div class="ctch">
+                                <div class="icon_grid-3x3 ick"></div>
+                                <div class="text">UV</div>
+                            </div>
+                        </div>
+
+                        <div class="desc2">
+                            Metal Mug Model with coffee -one mesh, one material, LOD0 1144 tris, LOD1 64 tris.<br><br>All textures in 2K resolution: <br><br> Albedo map, Normal map, Ambient occlusion map, Specular map. <br><br>Good for PC, VR and mobile.
+                        </div>
+
+                        <div class="share">
+                            SHARE:
+                            <a class="social_twitter"></a>
+                            <a class="social_facebook"></a>
+                            <a class="social_pinterest"></a>
+                            <a class="social_instagram"></a>
+                            <a class="social_dribbble"></a>
+                        </div>
+
+                        <div class="butthold">
+                            <button>SEE ON SKETCHFAB</button>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="mobClicked">
+                        <h1>ZOZOL</h1>
+                        <button class="clBtn">X</button>
+                        <div class="galHold">
+                            <div class="sldie active">
+                                <img src="./images/portfolio_materials/zozol/zozol.jpg" alt="">
+                            </div>
+
+                            <div class="sldie">
+                                <img src="./images/portfolio_materials/zozol/zozol_2.jpg" alt="">
+                            </div>
+
+
+                            <div class="sldie">
+                                <img src="./images/portfolio_materials/zozol/zozol_3.jpg" alt="">
+                            </div>
+
+
+                            <div class="sldie">
+                                <img src="./images/portfolio_materials/zozol/zozol_4.jpg" alt="">
+                            </div>
+
+
+                            <div class="sldie">
+                                <img src="./images/portfolio_materials/zozol/zozole_1.jpg" alt="">
+                            </div>
+
+
+
+                            <div class="belt">
+                                <div class="bigsq active">
+                                    <div class="smllsq"></div>
+                                </div>
+                                <div class="bigsq">
+                                    <div class="smllsq"></div>
+                                </div>
+
+                                <div class="bigsq">
+                                    <div class="smllsq"></div>
+                                </div>
+
+                                <div class="bigsq">
+                                    <div class="smllsq"></div>
+                                </div>
+
+                                <div class="bigsq">
+                                    <div class="smllsq"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="desc">
+                            <div class="ctch">
+                                <div class="icon_globe-2 ick"></div>
+                                <div class="text">LOD</div>
+                            </div>
+                            <div class="ctch">
+                                <div class="icon_map_alt ick"></div>
+                                <div class="text">Texture maps</div>
+                            </div>
+                            <div class="ctch">
+                                <div class="icon_piechart ick"></div>
+                                <div class="text">24 650 tris</div>
+                            </div>
+                            <div class="ctch">
+                                <div class="icon_grid-3x3 ick"></div>
+                                <div class="text">UV</div>
+                            </div>
+                        </div>
+
+                        <div class="desc2">
+                            Zozol model-one mesh, one material, 24 650 tris. <br>Model is rigged and animated (dancing, waving, topping). <br>Model used in the mobile game “Wole Zozole”.<br><br>Hand painted texture. <br><br>All textures in 2K resolution:
+                            <br><br>Albedo map, Normal map, Ambient occlusion map, Specular map.
+                        </div>
+
+                        <div class="share">
+                            SHARE:
+                            <a class="social_twitter"></a>
+                            <a class="social_facebook"></a>
+                            <a class="social_pinterest"></a>
+                            <a class="social_instagram"></a>
+                            <a class="social_dribbble"></a>
+                        </div>
+
+                        <div class="butthold">
+                            <button>SEE ON SKETCHFAB</button>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="mobClicked">
+                        <h1>FLAT BENCH</h1>
+                        <button class="clBtn">X</button>
+                        <div class="galHold">
+                            <div class="sldie active">
+                                <img src="./images/portfolio_materials/laweczka/laweczka.jpg" alt="">
+                            </div>
+
+                            <!-- <div class="sldie">
+                                <img src="./images/portfolio_materials/laweczka/laweczka.jpg" alt="">
+                            </div>
+
+
+                            <div class="sldie">
+                                <img src="./images/portfolio_materials/laweczka/laweczka.jpg" alt="">
+                            </div>
+
+
+                            <div class="sldie">
+                                <img src="./images/portfolio_materials/laweczka/laweczka.jpg" alt="">
+                            </div>
+
+
+                            <div class="sldie">
+                                <img src="./images/portfolio_materials/laweczka/laweczka.jpg" alt="">
+                            </div> -->
+
+
+
+                            <div class="belt">
+                                <div class="bigsq active">
+                                    <div class="smllsq"></div>
+                                </div>
+                                <!-- <div class="bigsq">
+                                    <div class="smllsq"></div>
+                                </div>
+
+                                <div class="bigsq">
+                                    <div class="smllsq"></div>
+                                </div>
+
+                                <div class="bigsq">
+                                    <div class="smllsq"></div>
+                                </div>
+
+                                <div class="bigsq">
+                                    <div class="smllsq"></div>
+                                </div> -->
+                            </div>
+                        </div>
+
+                        <div class="desc">
+                            <div class="ctch">
+                                <div class="icon_globe-2 ick"></div>
+                                <div class="text">LOD</div>
+                            </div>
+                            <div class="ctch">
+                                <div class="icon_map_alt ick"></div>
+                                <div class="text">Texture maps</div>
+                            </div>
+                            <div class="ctch">
+                                <div class="icon_piechart ick"></div>
+                                <div class="text">474 tris</div>
+                            </div>
+                            <div class="ctch">
+                                <div class="icon_grid-3x3 ick"></div>
+                                <div class="text">UV</div>
+                            </div>
+                        </div>
+
+                        <div class="desc2">
+                            Flat bench model-one mesh, one material, 474 tris.<br><br>All textures in 2K resolution: <br>Albedo map, Normal map, Ambient occlusion map, Specular map. <br><br>Good for PC, VR and mobile.
+                        </div>
+
+                        <div class="share">
+                            SHARE:
+                            <a class="social_twitter"></a>
+                            <a class="social_facebook"></a>
+                            <a class="social_pinterest"></a>
+                            <a class="social_instagram"></a>
+                            <a class="social_dribbble"></a>
+                        </div>
+
+                        <div class="butthold">
+                            <button>SEE ON SKETCHFAB</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row numNav">
                 <div class="col-12 pages">
                     <div class="page" id="previous">
                         <div class="arrow"></div>
@@ -814,7 +1650,7 @@
         </div>
     </section>
 
-    <section class="workUs">
+    <section class="workUs workus2">
         <div class="container">
             <div class="row">
                 <div class="col-1">
@@ -874,7 +1710,7 @@
                         <p>Sign up for our mailing list to get latest updates and offers.</p>
                         <form class="col-12 input">
                             <input type="text" name="email" placeholder="Enter your email">
-                            <button><img src="./images/icons/arrow.png"></button>
+                            <button><img src="./images/icons/arrow.png" class="arrcor"></button>
                         </form>
                     </div>
                 </div>
@@ -897,7 +1733,7 @@
                 <div class="col-6"></div>
 
                 <div class="col-1 bttn">
-                    <button><img src="./images/icons/arrow.png"></button>
+                    <button class="scrollTopBtn"><img src="./images/icons/arrow.png"></button>
                 </div>
             </div>
         </div>
@@ -905,7 +1741,12 @@
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
     <script src="./js/app.js" type="text/javascript"></script>
+    <script src="./js/burger.js" type="text/javascript"></script>
+    <script src="./js/mobMenu.js" type="text/javascript"></script>
 </body>
 
 </html>
